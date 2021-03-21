@@ -100,7 +100,7 @@ def move(event):
                 tTime += 1
 
             showBoard.create_oval(x0 + (nowX * rad[star]) + 10, y0 + (
-                nowY * rad[star]) + 10, x0 + (nowX * rad[star]) - 10, y0 + (nowY * rad[star]) - 10, fill="blue")
+                nowY * rad[star]) + 10, x0 + (nowX * rad[star]) - 10, y0 + (nowY * rad[star]) - 10, fill="aqua")
 
             showBoard.update()
 
